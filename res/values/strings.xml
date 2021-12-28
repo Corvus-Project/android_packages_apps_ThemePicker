@@ -113,7 +113,8 @@
     <string name="font_preview_content_description">Font preview</string>
 
     <!-- Content description of icon preview. [CHAR_LIMIT=30]-->
-    <string name="icon_preview_content_description">Icon preview</string>
+    <string name="icon_preview_content_description">Icon Preview</string>
+    <string name="icon_preview_card_content_description">@string/icon_preview_content_description</string>
 
     <!-- Content description of color preview. [CHAR_LIMIT=30]-->
     <string name="color_preview_content_description">Color preview</string>
@@ -480,4 +481,6 @@
     [CHAR LIMIT=NONE].
     -->
     <string name="content_description_color_option">Color option <xliff:g name="color_number" example="1">%1$d</xliff:g></string>
+
+    <string name="icon_pack_title">System Icon Packs</string>
 </resources>

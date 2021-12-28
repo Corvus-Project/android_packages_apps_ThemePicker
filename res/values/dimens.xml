@@ -164,4 +164,7 @@
     <dimen name="clock_carousel_scale" format="float">0.5</dimen>
     <!-- Alpha of the carousel items that are not selected and at the side -->
     <dimen name="clock_carousel_alpha" format="float">0.4</dimen>
+
+    <dimen name="icon_options_container_min_height">96dp</dimen>
+    <dimen name="icon_options_container_top_margin">24dp</dimen>
 </resources>

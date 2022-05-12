@@ -482,5 +482,4 @@
     -->
     <string name="content_description_color_option">Color option <xliff:g name="color_number" example="1">%1$d</xliff:g></string>
 
-    <string name="icon_pack_title">System Icon Packs</string>
 </resources>

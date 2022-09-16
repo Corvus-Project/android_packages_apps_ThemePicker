@@ -294,6 +294,7 @@ public class OptionSelectorController<T extends CustomizationOption<T>> {
 
         Resources res = mContainer.getContext().getResources();
         mContainer.setAdapter(mAdapter);
+        mContainer.setItemAnimator(null);
         final DisplayMetrics metrics = new DisplayMetrics();
         mContainer.getContext().getSystemService(WindowManager.class)
                 .getDefaultDisplay().getMetrics(metrics);

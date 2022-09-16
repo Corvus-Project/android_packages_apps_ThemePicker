@@ -14,6 +14,8 @@ import com.android.customization.model.grid.GridOptionsManager;
 import com.android.customization.model.grid.GridSectionController;
 import com.android.customization.model.iconpack.IconPackManager;
 import com.android.customization.model.iconpack.IconPackSectionController;
+import com.android.customization.model.iconshape.IconShapeManager;
+import com.android.customization.model.iconshape.IconShapeSectionController;
 import com.android.customization.model.mode.DarkModeSectionController;
 import com.android.customization.model.theme.OverlayManagerCompat;
 import com.android.customization.model.themedicon.ThemedIconPackSectionController;
@@ -161,6 +163,10 @@ public final class DefaultCustomizationSections implements CustomizationSections
         sectionControllers.add(new FontSectionController(
                 FontManager.getInstance(activity, new OverlayManagerCompat(activity)), sectionNavigationController))
 ;
+        // Icon shape selection section.
+        sectionControllers.add(new IconShapeSectionController(
+                IconShapeManager.getInstance(activity, new OverlayManagerCompat(activity)), sectionNavigationController));
+
         return sectionControllers;
     }
 }
